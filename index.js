@@ -31,8 +31,8 @@ client.on("guildMemberRemove", (member) => {
 client.on('message', (message) => {
   if(message.author.bot) return;
 
-  if(message.content == '이젠되겠지') {
-    return message.reply('오너무잘되고');
+  if(message.content == 'nowwecan') {
+    return message.reply('yeswecan');
   }
 
   if(message.content == 'embed') {

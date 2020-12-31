@@ -31,8 +31,8 @@ client.on("guildMemberRemove", (member) => {
 client.on('message', (message) => {
   if(message.author.bot) return;
 
-  if(message.content == 'test3') {
-    return message.reply('홀리몰리워터파크');
+  if(message.content == '권영이는?') {
+    return message.reply('못생겼다');
   }
 
   if(message.content == 'embed') {

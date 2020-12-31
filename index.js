@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const token = process.env.token;
+const token = 'NzkzNzM3NzczMzU3ODU4ODM4.X-wn6A.QHk5LRG2mqJx0m_xiQbuHUTM7AE';
 const welcomeChannelName = "안녕하세요";
 const byeChannelName = "안녕히가세요";
 const welcomeChannelComment = "어서오세요.";
@@ -31,8 +31,8 @@ client.on("guildMemberRemove", (member) => {
 client.on('message', (message) => {
   if(message.author.bot) return;
 
-  if(message.content == 'sound') {
-    return message.reply('YES');
+  if(message.content == 'test1') {
+    return message.reply('홀리몰리워터파크');
   }
 
   if(message.content == 'embed') {

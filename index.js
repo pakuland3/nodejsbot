@@ -31,8 +31,8 @@ client.on("guildMemberRemove", (member) => {
 client.on('message', (message) => {
   if(message.author.bot) return;
 
-  if(message.content == 'wowassemble') {
-    return message.reply('Ok');
+  if(message.content == 'sound') {
+    return message.reply('YES');
   }
 
   if(message.content == 'embed') {

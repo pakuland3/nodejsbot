@@ -31,7 +31,7 @@ client.on("guildMemberRemove", (member) => {
 client.on('message', (message) => {
   if(message.author.bot) return;
 
-  if(message.content == 'test2') {
+  if(message.content == 'test3') {
     return message.reply('홀리몰리워터파크');
   }
 
